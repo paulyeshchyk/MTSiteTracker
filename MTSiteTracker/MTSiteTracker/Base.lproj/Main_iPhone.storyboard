@@ -38,19 +38,19 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rlQ-0f-ZGB" customClass="MTPanel">
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite" translatesAutoresizingMaskIntoConstraints="NO" id="rlQ-0f-ZGB" customClass="MTPanel">
                                 <rect key="frame" x="10" y="0.0" width="300" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J9v-qy-54l">
-                                        <rect key="frame" x="48" y="26" width="218" height="94"/>
+                                    <webView contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="218" placeholderIntrinsicHeight="94" translatesAutoresizingMaskIntoConstraints="NO" id="J9v-qy-54l">
+                                        <rect key="frame" x="0.0" y="0.0" width="218" height="94"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </webView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="165" id="gLI-bT-CIZ"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="PWg-O0-77O"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="viewToDisplay" destination="J9v-qy-54l" id="f7P-zr-C8X"/>
@@ -265,6 +265,8 @@ your first
                     <connections>
                         <outlet property="historyButton" destination="iup-1j-6LY" id="wJ8-or-S9d"/>
                         <outlet property="mtPanel" destination="rlQ-0f-ZGB" id="tzr-NZ-449"/>
+                        <outlet property="panelHeightConstraint" destination="PWg-O0-77O" id="kGP-sK-fLg"/>
+                        <outlet property="webView" destination="J9v-qy-54l" id="z6v-lj-oCe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dv0-4c-Sdz" userLabel="First Responder" sceneMemberID="firstResponder"/>
