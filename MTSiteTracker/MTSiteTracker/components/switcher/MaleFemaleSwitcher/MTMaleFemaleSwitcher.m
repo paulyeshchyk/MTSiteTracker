@@ -33,6 +33,9 @@
 
 - (void)initCommon {
     
+    self.layer.borderColor = [[UIColor redColor] CGColor];
+    self.layer.borderWidth = 1.0f;
+    self.layer.cornerRadius = 2.0f;
     
     self.backgroundImage.image = [[UIImage imageNamed:@"LGISwitchBackgroundImage"] resizableImageWithCapInsets:UIEdgeInsetsMake(6, 6, 6, 6)];
     
@@ -75,13 +78,9 @@
     NSString *newTitleText = nil;
     
     if ([self isOn]) {
-        self.onTitleLabel.enabled = YES;
-        self.offTitleLabel.enabled = NO;
         newTitleText = self.onTitle;
         self.switcherXAlignementConstraint.constant = - self.frame.size.width / 4;
     } else {
-        self.onTitleLabel.enabled = NO;
-        self.offTitleLabel.enabled = YES;
         newTitleText = self.offTitle;
         self.switcherXAlignementConstraint.constant = self.frame.size.width / 4;
     }

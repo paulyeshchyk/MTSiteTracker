@@ -41,6 +41,7 @@
 		1DF12F9219DEAA4D00B9FAAD /* MTFrontBackSwitcher.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DF12F9019DEAA4D00B9FAAD /* MTFrontBackSwitcher.xib */; };
 		1DF12F9619DEAD1200B9FAAD /* MTMaleFemaleSwitcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF12F9319DEAD1200B9FAAD /* MTMaleFemaleSwitcher.m */; };
 		1DF12F9719DEAD1200B9FAAD /* MTMaleFemaleSwitcher.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DF12F9519DEAD1200B9FAAD /* MTMaleFemaleSwitcher.xib */; };
+		1DF12F9A19DEC58400B9FAAD /* MTMaskedSwitcherIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF12F9919DEC58400B9FAAD /* MTMaskedSwitcherIndicator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,8 @@
 		1DF12F9319DEAD1200B9FAAD /* MTMaleFemaleSwitcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMaleFemaleSwitcher.m; sourceTree = "<group>"; };
 		1DF12F9419DEAD1200B9FAAD /* MTMaleFemaleSwitcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMaleFemaleSwitcher.h; sourceTree = "<group>"; };
 		1DF12F9519DEAD1200B9FAAD /* MTMaleFemaleSwitcher.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTMaleFemaleSwitcher.xib; sourceTree = "<group>"; };
+		1DF12F9819DEC58400B9FAAD /* MTMaskedSwitcherIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMaskedSwitcherIndicator.h; sourceTree = "<group>"; };
+		1DF12F9919DEC58400B9FAAD /* MTMaskedSwitcherIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMaskedSwitcherIndicator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,6 +286,8 @@
 				1DF12F9319DEAD1200B9FAAD /* MTMaleFemaleSwitcher.m */,
 				1DF12F9419DEAD1200B9FAAD /* MTMaleFemaleSwitcher.h */,
 				1DF12F9519DEAD1200B9FAAD /* MTMaleFemaleSwitcher.xib */,
+				1DF12F9819DEC58400B9FAAD /* MTMaskedSwitcherIndicator.h */,
+				1DF12F9919DEC58400B9FAAD /* MTMaskedSwitcherIndicator.m */,
 			);
 			path = MaleFemaleSwitcher;
 			sourceTree = "<group>";
@@ -424,6 +429,7 @@
 				1DD436BA19DD3E1400692C6E /* MTPanel.m in Sources */,
 				1D6B4CB819DA9E2D008C3659 /* PYAAppDelegate.m in Sources */,
 				1DD436BB19DD3E1400692C6E /* MYMPanelsFactory.m in Sources */,
+				1DF12F9A19DEC58400B9FAAD /* MTMaskedSwitcherIndicator.m in Sources */,
 				1D6B4CC119DA9E2D008C3659 /* PYAViewController.m in Sources */,
 				1D6B4CEC19DABACD008C3659 /* MTSInfusionSiteEntryPreviewViewController.m in Sources */,
 				1D6B4CE319DAB2D2008C3659 /* MTSLatestInfusionSiteEntryViewController.m in Sources */,

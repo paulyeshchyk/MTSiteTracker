@@ -37,7 +37,6 @@
 
 - (void)initCommon {
     
-    
     self.backgroundImage.image = [[UIImage imageNamed:@"LGISwitchBackgroundImage"] resizableImageWithCapInsets:UIEdgeInsetsMake(6, 6, 6, 6)];
     
     self.switcherImage.image = [[UIImage imageNamed:@"LGISwitcherIcon"] resizableImageWithCapInsets:UIEdgeInsetsMake(6, 6, 6, 6)];
