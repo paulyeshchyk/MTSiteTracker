@@ -56,11 +56,34 @@
                                     <outlet property="viewToDisplay" destination="J9v-qy-54l" id="f7P-zr-C8X"/>
                                 </connections>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5jR-9H-tOh">
+                                <rect key="frame" x="10" y="30" width="300" height="252"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W9E-4r-7FJ" customClass="MTFrontBackSwitcher">
+                                        <rect key="frame" x="115" y="54" width="185" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YEe-MR-hPZ" customClass="MTMaleFemaleSwitcher">
+                                        <rect key="frame" x="0.0" y="116" width="300" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.32358870967741937" green="1" blue="0.86728200604838712" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="252" id="DRT-O1-NCP"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="rlQ-0f-ZGB" firstAttribute="leading" secondItem="T91-8U-zfm" secondAttribute="leading" constant="10" id="Bam-jL-Wa6"/>
+                            <constraint firstItem="5jR-9H-tOh" firstAttribute="leading" secondItem="T91-8U-zfm" secondAttribute="leading" constant="10" id="BiO-La-eKT"/>
                             <constraint firstItem="rlQ-0f-ZGB" firstAttribute="top" secondItem="J1j-YR-NIU" secondAttribute="bottom" id="FCD-K4-ikt"/>
+                            <constraint firstItem="5jR-9H-tOh" firstAttribute="top" secondItem="rlQ-0f-ZGB" secondAttribute="bottom" id="HOe-Ja-O5y"/>
+                            <constraint firstAttribute="trailing" secondItem="5jR-9H-tOh" secondAttribute="trailing" constant="10" id="Qlj-aW-ZzH"/>
                             <constraint firstAttribute="trailing" secondItem="rlQ-0f-ZGB" secondAttribute="trailing" constant="10" id="StF-ar-pWY"/>
                             <constraint firstItem="rlQ-0f-ZGB" firstAttribute="top" secondItem="J1j-YR-NIU" secondAttribute="bottom" id="mhD-Se-njV"/>
                         </constraints>

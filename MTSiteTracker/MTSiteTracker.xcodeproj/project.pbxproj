@@ -33,6 +33,14 @@
 		1DD436BA19DD3E1400692C6E /* MTPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD436B719DD3E1400692C6E /* MTPanel.m */; };
 		1DD436BB19DD3E1400692C6E /* MYMPanelsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD436B919DD3E1400692C6E /* MYMPanelsFactory.m */; };
 		1DD436C019DD500800692C6E /* MTAttributedStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD436BF19DD500800692C6E /* MTAttributedStrings.m */; };
+		1DF12F8919DEA8C000B9FAAD /* LGISwitchBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF12F8519DEA8C000B9FAAD /* LGISwitchBackgroundImage.png */; };
+		1DF12F8A19DEA8C000B9FAAD /* LGISwitchBackgroundImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF12F8619DEA8C000B9FAAD /* LGISwitchBackgroundImage@2x.png */; };
+		1DF12F8B19DEA8C000B9FAAD /* LGISwitcherIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF12F8719DEA8C000B9FAAD /* LGISwitcherIcon.png */; };
+		1DF12F8C19DEA8C000B9FAAD /* LGISwitcherIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF12F8819DEA8C000B9FAAD /* LGISwitcherIcon@2x.png */; };
+		1DF12F9119DEAA4D00B9FAAD /* MTFrontBackSwitcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF12F8F19DEAA4D00B9FAAD /* MTFrontBackSwitcher.m */; };
+		1DF12F9219DEAA4D00B9FAAD /* MTFrontBackSwitcher.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DF12F9019DEAA4D00B9FAAD /* MTFrontBackSwitcher.xib */; };
+		1DF12F9619DEAD1200B9FAAD /* MTMaleFemaleSwitcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF12F9319DEAD1200B9FAAD /* MTMaleFemaleSwitcher.m */; };
+		1DF12F9719DEAD1200B9FAAD /* MTMaleFemaleSwitcher.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DF12F9519DEAD1200B9FAAD /* MTMaleFemaleSwitcher.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +91,16 @@
 		1DD436B919DD3E1400692C6E /* MYMPanelsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYMPanelsFactory.m; sourceTree = "<group>"; };
 		1DD436BE19DD500800692C6E /* MTAttributedStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAttributedStrings.h; sourceTree = "<group>"; };
 		1DD436BF19DD500800692C6E /* MTAttributedStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAttributedStrings.m; sourceTree = "<group>"; };
+		1DF12F8519DEA8C000B9FAAD /* LGISwitchBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LGISwitchBackgroundImage.png; sourceTree = "<group>"; };
+		1DF12F8619DEA8C000B9FAAD /* LGISwitchBackgroundImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LGISwitchBackgroundImage@2x.png"; sourceTree = "<group>"; };
+		1DF12F8719DEA8C000B9FAAD /* LGISwitcherIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LGISwitcherIcon.png; sourceTree = "<group>"; };
+		1DF12F8819DEA8C000B9FAAD /* LGISwitcherIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LGISwitcherIcon@2x.png"; sourceTree = "<group>"; };
+		1DF12F8E19DEAA4D00B9FAAD /* MTFrontBackSwitcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFrontBackSwitcher.h; sourceTree = "<group>"; };
+		1DF12F8F19DEAA4D00B9FAAD /* MTFrontBackSwitcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFrontBackSwitcher.m; sourceTree = "<group>"; };
+		1DF12F9019DEAA4D00B9FAAD /* MTFrontBackSwitcher.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTFrontBackSwitcher.xib; sourceTree = "<group>"; };
+		1DF12F9319DEAD1200B9FAAD /* MTMaleFemaleSwitcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMaleFemaleSwitcher.m; sourceTree = "<group>"; };
+		1DF12F9419DEAD1200B9FAAD /* MTMaleFemaleSwitcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMaleFemaleSwitcher.h; sourceTree = "<group>"; };
+		1DF12F9519DEAD1200B9FAAD /* MTMaleFemaleSwitcher.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTMaleFemaleSwitcher.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +228,7 @@
 		1D6B4CEE19DAC6C2008C3659 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				1DF12F8419DEA8C000B9FAAD /* MTFrontBackSwitch */,
 				1D6B4CF919DACC8D008C3659 /* star_28x28.png */,
 				1D6B4CF719DACB73008C3659 /* clock_28x28.png */,
 				1D6B4CF519DACACA008C3659 /* clock_32x32.png */,
@@ -222,6 +241,7 @@
 		1DD436B419DD3E1400692C6E /* components */ = {
 			isa = PBXGroup;
 			children = (
+				1DF12F6D19DEA15100B9FAAD /* switcher */,
 				1DD436BD19DD4FEB00692C6E /* attributedStrings */,
 				1DD436B519DD3E1400692C6E /* mtpanel */,
 				1DD436B819DD3E1400692C6E /* MYMPanelsFactory.h */,
@@ -246,6 +266,46 @@
 				1DD436BF19DD500800692C6E /* MTAttributedStrings.m */,
 			);
 			path = attributedStrings;
+			sourceTree = "<group>";
+		};
+		1DF12F6D19DEA15100B9FAAD /* switcher */ = {
+			isa = PBXGroup;
+			children = (
+				1DF12F8D19DEAA4D00B9FAAD /* FrontBackSwitcher */,
+				1DF12F6F19DEA15100B9FAAD /* MaleFemaleSwitcher */,
+			);
+			path = switcher;
+			sourceTree = "<group>";
+		};
+		1DF12F6F19DEA15100B9FAAD /* MaleFemaleSwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				1DF12F9319DEAD1200B9FAAD /* MTMaleFemaleSwitcher.m */,
+				1DF12F9419DEAD1200B9FAAD /* MTMaleFemaleSwitcher.h */,
+				1DF12F9519DEAD1200B9FAAD /* MTMaleFemaleSwitcher.xib */,
+			);
+			path = MaleFemaleSwitcher;
+			sourceTree = "<group>";
+		};
+		1DF12F8419DEA8C000B9FAAD /* MTFrontBackSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				1DF12F8519DEA8C000B9FAAD /* LGISwitchBackgroundImage.png */,
+				1DF12F8619DEA8C000B9FAAD /* LGISwitchBackgroundImage@2x.png */,
+				1DF12F8719DEA8C000B9FAAD /* LGISwitcherIcon.png */,
+				1DF12F8819DEA8C000B9FAAD /* LGISwitcherIcon@2x.png */,
+			);
+			path = MTFrontBackSwitch;
+			sourceTree = "<group>";
+		};
+		1DF12F8D19DEAA4D00B9FAAD /* FrontBackSwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				1DF12F8E19DEAA4D00B9FAAD /* MTFrontBackSwitcher.h */,
+				1DF12F8F19DEAA4D00B9FAAD /* MTFrontBackSwitcher.m */,
+				1DF12F9019DEAA4D00B9FAAD /* MTFrontBackSwitcher.xib */,
+			);
+			path = FrontBackSwitcher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,15 +385,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF12F8919DEA8C000B9FAAD /* LGISwitchBackgroundImage.png in Resources */,
+				1DF12F8C19DEA8C000B9FAAD /* LGISwitcherIcon@2x.png in Resources */,
 				1D6B4CBE19DA9E2D008C3659 /* Main_iPad.storyboard in Resources */,
+				1DF12F8B19DEA8C000B9FAAD /* LGISwitcherIcon.png in Resources */,
 				1D6B4CF819DACB73008C3659 /* clock_28x28.png in Resources */,
 				1D6B4CF319DAC74B008C3659 /* clock.png in Resources */,
 				1D6B4CC319DA9E2D008C3659 /* Images.xcassets in Resources */,
 				1D6B4CFA19DACC8D008C3659 /* star_28x28.png in Resources */,
+				1DF12F9219DEAA4D00B9FAAD /* MTFrontBackSwitcher.xib in Resources */,
 				1D6B4CF419DAC74B008C3659 /* clock@2x.png in Resources */,
 				1D6B4CBB19DA9E2D008C3659 /* Main_iPhone.storyboard in Resources */,
 				1D6B4CB219DA9E2D008C3659 /* InfoPlist.strings in Resources */,
+				1DF12F8A19DEA8C000B9FAAD /* LGISwitchBackgroundImage@2x.png in Resources */,
 				1D6B4CF619DACACB008C3659 /* clock_32x32.png in Resources */,
+				1DF12F9719DEAD1200B9FAAD /* MTMaleFemaleSwitcher.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF12F9119DEAA4D00B9FAAD /* MTFrontBackSwitcher.m in Sources */,
 				1D6B4CB419DA9E2D008C3659 /* main.m in Sources */,
 				1DD436C019DD500800692C6E /* MTAttributedStrings.m in Sources */,
 				1DD436BA19DD3E1400692C6E /* MTPanel.m in Sources */,
@@ -361,6 +428,7 @@
 				1D6B4CEC19DABACD008C3659 /* MTSInfusionSiteEntryPreviewViewController.m in Sources */,
 				1D6B4CE319DAB2D2008C3659 /* MTSLatestInfusionSiteEntryViewController.m in Sources */,
 				1D6B4CE819DAB746008C3659 /* MTSInfusionSiteHistoryViewController.m in Sources */,
+				1DF12F9619DEAD1200B9FAAD /* MTMaleFemaleSwitcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

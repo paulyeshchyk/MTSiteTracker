@@ -34,13 +34,6 @@
     [self.webView.scrollView setScrollEnabled:NO];
     [MYMPanelsFactory configureAsLatestInfusionSetPanel:self.mtPanel];
     [self.historyButton setAttributedTitle:[MTAttributedStrings infusionSiteHistory] forState:UIControlStateNormal];
-    dispatch_after(1, dispatch_get_main_queue(), ^{
-        
-//        CGSize size = [self.mtPanel systemLayoutSizeFittingSize:UILayoutFittingCompressedSize];
-//        self.panelHeightConstraint.constant = size.height;
-//        [self.mtPanel layoutSubviews];
-//        [self.mtPanel setNeedsLayout];
-    });
     
 }
 
