@@ -7,6 +7,8 @@
 //
 
 #import "MTSLatestInfusionSiteEntryViewController.h"
+#import "MYMPanelsFactory.h"
+#import "MTAttributedStrings.h"
 
 @interface MTSLatestInfusionSiteEntryViewController ()
 
@@ -26,7 +28,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+
+    [MYMPanelsFactory configureAsLatestInfusionSetPanel:self.mtPanel];
+    [self.historyButton setAttributedTitle:[MTAttributedStrings infusionSiteHistory] forState:UIControlStateNormal];
+    
 }
 
 - (void)didReceiveMemoryWarning

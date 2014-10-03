@@ -22,6 +22,17 @@
 		1D6B4CCC19DA9E2D008C3659 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6B4CAB19DA9E2D008C3659 /* UIKit.framework */; };
 		1D6B4CD419DA9E2D008C3659 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D6B4CD219DA9E2D008C3659 /* InfoPlist.strings */; };
 		1D6B4CD619DA9E2D008C3659 /* MTSiteTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B4CD519DA9E2D008C3659 /* MTSiteTrackerTests.m */; };
+		1D6B4CE319DAB2D2008C3659 /* MTSLatestInfusionSiteEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B4CE119DAB2D2008C3659 /* MTSLatestInfusionSiteEntryViewController.m */; };
+		1D6B4CE819DAB746008C3659 /* MTSInfusionSiteHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B4CE619DAB746008C3659 /* MTSInfusionSiteHistoryViewController.m */; };
+		1D6B4CEC19DABACD008C3659 /* MTSInfusionSiteEntryPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B4CEB19DABACD008C3659 /* MTSInfusionSiteEntryPreviewViewController.m */; };
+		1D6B4CF319DAC74B008C3659 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6B4CF119DAC74B008C3659 /* clock.png */; };
+		1D6B4CF419DAC74B008C3659 /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6B4CF219DAC74B008C3659 /* clock@2x.png */; };
+		1D6B4CF619DACACB008C3659 /* clock_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6B4CF519DACACA008C3659 /* clock_32x32.png */; };
+		1D6B4CF819DACB73008C3659 /* clock_28x28.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6B4CF719DACB73008C3659 /* clock_28x28.png */; };
+		1D6B4CFA19DACC8D008C3659 /* star_28x28.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6B4CF919DACC8D008C3659 /* star_28x28.png */; };
+		1DD436BA19DD3E1400692C6E /* MTPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD436B719DD3E1400692C6E /* MTPanel.m */; };
+		1DD436BB19DD3E1400692C6E /* MYMPanelsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD436B919DD3E1400692C6E /* MYMPanelsFactory.m */; };
+		1DD436C019DD500800692C6E /* MTAttributedStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD436BF19DD500800692C6E /* MTAttributedStrings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +66,23 @@
 		1D6B4CD119DA9E2D008C3659 /* MTSiteTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTSiteTrackerTests-Info.plist"; sourceTree = "<group>"; };
 		1D6B4CD319DA9E2D008C3659 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1D6B4CD519DA9E2D008C3659 /* MTSiteTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTSiteTrackerTests.m; sourceTree = "<group>"; };
+		1D6B4CE019DAB2D2008C3659 /* MTSLatestInfusionSiteEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSLatestInfusionSiteEntryViewController.h; sourceTree = "<group>"; };
+		1D6B4CE119DAB2D2008C3659 /* MTSLatestInfusionSiteEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSLatestInfusionSiteEntryViewController.m; sourceTree = "<group>"; };
+		1D6B4CE519DAB746008C3659 /* MTSInfusionSiteHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSInfusionSiteHistoryViewController.h; sourceTree = "<group>"; };
+		1D6B4CE619DAB746008C3659 /* MTSInfusionSiteHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSInfusionSiteHistoryViewController.m; sourceTree = "<group>"; };
+		1D6B4CEA19DABACD008C3659 /* MTSInfusionSiteEntryPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSInfusionSiteEntryPreviewViewController.h; sourceTree = "<group>"; };
+		1D6B4CEB19DABACD008C3659 /* MTSInfusionSiteEntryPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSInfusionSiteEntryPreviewViewController.m; sourceTree = "<group>"; };
+		1D6B4CF119DAC74B008C3659 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		1D6B4CF219DAC74B008C3659 /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
+		1D6B4CF519DACACA008C3659 /* clock_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock_32x32.png; sourceTree = "<group>"; };
+		1D6B4CF719DACB73008C3659 /* clock_28x28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock_28x28.png; sourceTree = "<group>"; };
+		1D6B4CF919DACC8D008C3659 /* star_28x28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_28x28.png; sourceTree = "<group>"; };
+		1DD436B619DD3E1400692C6E /* MTPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPanel.h; sourceTree = "<group>"; };
+		1DD436B719DD3E1400692C6E /* MTPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPanel.m; sourceTree = "<group>"; };
+		1DD436B819DD3E1400692C6E /* MYMPanelsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYMPanelsFactory.h; sourceTree = "<group>"; };
+		1DD436B919DD3E1400692C6E /* MYMPanelsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYMPanelsFactory.m; sourceTree = "<group>"; };
+		1DD436BE19DD500800692C6E /* MTAttributedStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAttributedStrings.h; sourceTree = "<group>"; };
+		1DD436BF19DD500800692C6E /* MTAttributedStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAttributedStrings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +142,9 @@
 		1D6B4CAD19DA9E2D008C3659 /* MTSiteTracker */ = {
 			isa = PBXGroup;
 			children = (
+				1DD436B419DD3E1400692C6E /* components */,
+				1D6B4CED19DAC6C2008C3659 /* resources */,
+				1D6B4CDF19DAB282008C3659 /* actors */,
 				1D6B4CB619DA9E2D008C3659 /* PYAAppDelegate.h */,
 				1D6B4CB719DA9E2D008C3659 /* PYAAppDelegate.m */,
 				1D6B4CB919DA9E2D008C3659 /* Main_iPhone.storyboard */,
@@ -153,6 +184,68 @@
 				1D6B4CD219DA9E2D008C3659 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D6B4CDF19DAB282008C3659 /* actors */ = {
+			isa = PBXGroup;
+			children = (
+				1D6B4CE019DAB2D2008C3659 /* MTSLatestInfusionSiteEntryViewController.h */,
+				1D6B4CE119DAB2D2008C3659 /* MTSLatestInfusionSiteEntryViewController.m */,
+				1D6B4CE519DAB746008C3659 /* MTSInfusionSiteHistoryViewController.h */,
+				1D6B4CE619DAB746008C3659 /* MTSInfusionSiteHistoryViewController.m */,
+				1D6B4CEA19DABACD008C3659 /* MTSInfusionSiteEntryPreviewViewController.h */,
+				1D6B4CEB19DABACD008C3659 /* MTSInfusionSiteEntryPreviewViewController.m */,
+			);
+			path = actors;
+			sourceTree = "<group>";
+		};
+		1D6B4CED19DAC6C2008C3659 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D6B4CEE19DAC6C2008C3659 /* images */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		1D6B4CEE19DAC6C2008C3659 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1D6B4CF919DACC8D008C3659 /* star_28x28.png */,
+				1D6B4CF719DACB73008C3659 /* clock_28x28.png */,
+				1D6B4CF519DACACA008C3659 /* clock_32x32.png */,
+				1D6B4CF119DAC74B008C3659 /* clock.png */,
+				1D6B4CF219DAC74B008C3659 /* clock@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		1DD436B419DD3E1400692C6E /* components */ = {
+			isa = PBXGroup;
+			children = (
+				1DD436BD19DD4FEB00692C6E /* attributedStrings */,
+				1DD436B519DD3E1400692C6E /* mtpanel */,
+				1DD436B819DD3E1400692C6E /* MYMPanelsFactory.h */,
+				1DD436B919DD3E1400692C6E /* MYMPanelsFactory.m */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		1DD436B519DD3E1400692C6E /* mtpanel */ = {
+			isa = PBXGroup;
+			children = (
+				1DD436B619DD3E1400692C6E /* MTPanel.h */,
+				1DD436B719DD3E1400692C6E /* MTPanel.m */,
+			);
+			path = mtpanel;
+			sourceTree = "<group>";
+		};
+		1DD436BD19DD4FEB00692C6E /* attributedStrings */ = {
+			isa = PBXGroup;
+			children = (
+				1DD436BE19DD500800692C6E /* MTAttributedStrings.h */,
+				1DD436BF19DD500800692C6E /* MTAttributedStrings.m */,
+			);
+			path = attributedStrings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,9 +326,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D6B4CBE19DA9E2D008C3659 /* Main_iPad.storyboard in Resources */,
+				1D6B4CF819DACB73008C3659 /* clock_28x28.png in Resources */,
+				1D6B4CF319DAC74B008C3659 /* clock.png in Resources */,
 				1D6B4CC319DA9E2D008C3659 /* Images.xcassets in Resources */,
+				1D6B4CFA19DACC8D008C3659 /* star_28x28.png in Resources */,
+				1D6B4CF419DAC74B008C3659 /* clock@2x.png in Resources */,
 				1D6B4CBB19DA9E2D008C3659 /* Main_iPhone.storyboard in Resources */,
 				1D6B4CB219DA9E2D008C3659 /* InfoPlist.strings in Resources */,
+				1D6B4CF619DACACB008C3659 /* clock_32x32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +353,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D6B4CB419DA9E2D008C3659 /* main.m in Sources */,
+				1DD436C019DD500800692C6E /* MTAttributedStrings.m in Sources */,
+				1DD436BA19DD3E1400692C6E /* MTPanel.m in Sources */,
 				1D6B4CB819DA9E2D008C3659 /* PYAAppDelegate.m in Sources */,
+				1DD436BB19DD3E1400692C6E /* MYMPanelsFactory.m in Sources */,
 				1D6B4CC119DA9E2D008C3659 /* PYAViewController.m in Sources */,
+				1D6B4CEC19DABACD008C3659 /* MTSInfusionSiteEntryPreviewViewController.m in Sources */,
+				1D6B4CE319DAB2D2008C3659 /* MTSLatestInfusionSiteEntryViewController.m in Sources */,
+				1D6B4CE819DAB746008C3659 /* MTSInfusionSiteHistoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +575,7 @@
 				1D6B4CDB19DA9E2D008C3659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D6B4CDC19DA9E2D008C3659 /* Build configuration list for PBXNativeTarget "MTSiteTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +584,7 @@
 				1D6B4CDE19DA9E2D008C3659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

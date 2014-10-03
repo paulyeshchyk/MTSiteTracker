@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MTPanel.h"
 
 @interface MTSLatestInfusionSiteEntryViewController : UIViewController
+
+@property (nonatomic, strong)IBOutlet UIButton *historyButton;
+@property (nonatomic, strong)IBOutlet UIView *webViewContainer;
+@property (nonatomic, strong)IBOutlet UIWebView *webView;
+@property (nonatomic, strong)IBOutlet MTPanel *mtPanel;
 
 @end
