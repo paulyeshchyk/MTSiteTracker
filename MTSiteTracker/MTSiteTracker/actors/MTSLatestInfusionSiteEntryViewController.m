@@ -10,7 +10,7 @@
 #import "MYMPanelsFactory.h"
 #import "MTAttributedStrings.h"
 
-@interface MTSLatestInfusionSiteEntryViewController ()
+@interface MTSLatestInfusionSiteEntryViewController () <UIWebViewDelegate>
 
 @property (nonatomic, weak)IBOutlet NSLayoutConstraint *panelHeightConstraint;
 @end
@@ -31,12 +31,15 @@
     [super viewDidLoad];
 
     [self.webView loadHTMLString:@"<html><body>Rorem</body></html>" baseURL:nil];
+    [self.webView.scrollView setScrollEnabled:NO];
     [MYMPanelsFactory configureAsLatestInfusionSetPanel:self.mtPanel];
     [self.historyButton setAttributedTitle:[MTAttributedStrings infusionSiteHistory] forState:UIControlStateNormal];
     dispatch_after(1, dispatch_get_main_queue(), ^{
         
 //        CGSize size = [self.mtPanel systemLayoutSizeFittingSize:UILayoutFittingCompressedSize];
 //        self.panelHeightConstraint.constant = size.height;
+//        [self.mtPanel layoutSubviews];
+//        [self.mtPanel setNeedsLayout];
     });
     
 }
@@ -45,6 +48,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView {
+    [self.webView sizeToFit];
+    CGSize size = self.webView.scrollView.contentSize;
+    [self.mtPanel setViewToDisplaySize:size];
 }
 
 @end

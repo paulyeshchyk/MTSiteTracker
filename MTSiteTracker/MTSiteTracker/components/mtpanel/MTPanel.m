@@ -21,7 +21,7 @@ static CGFloat const kMTPanelCornerRadius = 2.0f;
 @property (strong, nonatomic) UIView *separatorView;
 @property (strong, nonatomic) UIView *containerView;
 @property (strong, nonatomic) UIView *subContainerView;
-
+@property (strong, nonatomic) NSLayoutConstraint *viewToDisplayHeightConstraint;
 @end
 
 @implementation MTPanel
@@ -206,7 +206,7 @@ static CGFloat const kMTPanelCornerRadius = 2.0f;
 - (void)setViewToDisplay:(UIView *)viewToDisplay {
     
     [viewToDisplay removeFromSuperview];
-    
+    [viewToDisplay removeConstraint:self.viewToDisplayHeightConstraint];
     if (self.subContainerView){
     
         [self.subContainerView removeConstraints:self.subContainerView.constraints];
@@ -219,9 +219,31 @@ static CGFloat const kMTPanelCornerRadius = 2.0f;
         NSMutableArray *customConstraints = [[NSMutableArray alloc] init];
         [customConstraints addObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[_viewToDisplay]|" options:0 metrics:nil views:bindings]];
         [customConstraints addObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[_viewToDisplay]|" options:0 metrics:nil views:bindings]];
+        
+        self.viewToDisplayHeightConstraint = [NSLayoutConstraint constraintWithItem:self.viewToDisplay
+                                                                          attribute:NSLayoutAttributeHeight
+                                                                          relatedBy:NSLayoutRelationEqual
+                                                                             toItem:nil
+                                                                          attribute:NSLayoutAttributeNotAnAttribute
+                                                                         multiplier:1.0f
+                                                                           constant:self.viewToDisplaySize.height];
+        
+        [self.viewToDisplay addConstraint:self.viewToDisplayHeightConstraint];
+        
         [self.subContainerView addConstraints:customConstraints];
         [self setNeedsUpdateConstraints];
     }
+}
+
+- (CGFloat)subContainerWidth {
+    
+    return CGRectGetWidth(_subContainerView.bounds);
+}
+
+- (void)setViewToDisplaySize:(CGSize)viewToDisplaySize {
+    
+    self.viewToDisplayHeightConstraint.constant = viewToDisplaySize.height;
+    [self setNeedsUpdateConstraints];
 }
 
 - (void)updateConstraints {

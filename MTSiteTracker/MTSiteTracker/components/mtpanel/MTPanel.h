@@ -27,4 +27,7 @@
 @property (assign, nonatomic) CGFloat mtBorderThickness;
 
 @property (strong, nonatomic) IBOutlet UIView *viewToDisplay;
+@property (readonly, nonatomic)CGFloat subContainerWidth;
+
+@property (assign, nonatomic)CGSize viewToDisplaySize;
 @end
